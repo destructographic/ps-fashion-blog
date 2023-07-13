@@ -1,0 +1,39 @@
+/* components/Header/index.css */
+
+
+header {
+	padding: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+    overflow: hidden;
+	margin-bottom: 1em;
+}
+
+
+h1 {
+	color: tomato;
+}
+
+
+header h1 {
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+	color: #df4339;
+}
+
+header h1 a {
+	color: #df4339;
+	text-decoration: none;
+}
+
+header h2 {
+    font-size: 2em;
+    font-weight: normal;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+}
