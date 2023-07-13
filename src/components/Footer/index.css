@@ -1,6 +1,29 @@
 /* components/Footer/index.css */
 
 
-* {
-	background-color: red;
+
+footer {
+	clear: both;
+	color: #BBB;
+}
+
+footer nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+xfooter nav ul li {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+footer nav a {
+	display: block;
+	font-size: 1.25em;
+	color: #df4339;
+	text-decoration: underline;
 }
