@@ -18,16 +18,15 @@ article .continue-link {
 
 
 article {
-    margin-bottom: 4rem; /* Set the margin on the bottom to 4rem */
-    border-bottom: 1px solid lightgray; /* Add a 1px solid border in lightgray to the bottom */
-    padding-bottom: 2rem; /* Add padding on the bottom of 2rem */
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
 }
 
 article p::first-letter {
     color: lightgray;
     font-size: 6em; /* Adjust the font size as desired */
     float: left;
-    margin-right: 0.5rem; /* Add a small margin between the drop cap and the text */
-    line-height: 1; /* Ensure proper line height for the drop cap */
+    margin-right: 0.5rem; /* small margin between the drop cap and text */
+    line-height: 1; /* line height for the drop cap */
 }
-
